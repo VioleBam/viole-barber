@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 2vw;
+}
+#Home {
+    height: 100%;
+    width: 100%;
+}
+
+/* ---------- HEADER SECTION ----------*/
+header {
+    position: relative;
+    width: 100%;
+    opacity: 0.9;
+}
+header > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 50vw;
+    height: 14vw;
+}
+header > #brand {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+header > #brand > i {
+    position: absolute;
+    margin: 0 auto;
+    color: white;
+    font-style: italic;
+    font-size: 4vw;
+}
+header > #brand > #scissor-01 {
+    top: 5vw;
+    right: 0;
+    left: 33vw;
+    filter: drop-shadow(0px 0px 2px rgb(156, 155, 155));
+}
+header > #brand > #scissor-02 {
+    top: 5vw;
+    right: 30vw;
+    left: 0;
+    transform: rotate(180deg);
+    filter: drop-shadow(0px 0px 2px rgb(156, 155, 155));
+}
+header > #brand > h1 {
+    position: absolute;
+    top: 1vw;
+    left: 39vw;
+    right: 0;
+    color: white;
+    filter: drop-shadow(0px 0px 2px rgb(156, 155, 155));
+    font-style: italic;
+    font-size: 7vw;
+    font-family: 'Dancing Script', cursive;
+}
+header > #brand > p {
+    position: absolute !important;
+    top: 8.8vw;
+    left: 46vw;
+    right: 0;
+    color: white;
+    filter: drop-shadow(0px 0px 2px rgb(156, 155, 155));
+    font-size: 1.5vw;
+}
+/* ---------- END OF HEADER ----------*/
+
+.space {
+    height: 15vw;
+}
+
+/* ---------- NAVBAR SECTION ----------*/
+nav {
+    padding: 0 10%;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav > ul > li {
+    list-style-type: none;
+}
+nav > ul > li > a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Mogra', cursive;
+}
+/* ---------- END OF NAVBAR ----------*/
+
+/* ---------- ABOUT SECTION ----------*/
+#About {
+    margin: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#About > #about-img, #About > #about-text {
+    flex: 1 0 40%;
+    margin: 0 2%;
+}
+#About > #about-img {
+    width:80%;
+    height: auto;
+}
+#About > #about-img > img {
+    width: 100%;
+    opacity: 0.8;
+    object-fit: fill;
+    aspect-ratio: 1 / 1;
+    border-radius: 20% 10%;
+}
+#About > #about-text > h2 {
+    font-size: 5vw;
+    font-family: 'Mogra', cursive;
+}
+#About > #about-text > p {
+    font-size: 2vw;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+}
+/* ---------- END OF ABOUT ----------*/
+
+/* ---------- GALLERY SECTION ----------*/
+#Gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#Gallery > h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Mogra', cursive;
+}
+#Gallery > .box-img {
+    width: 25vw;
+    height: 25vw;
+    padding: 1vw;
+    background-color: #292828;
+}
+#Gallery > .box-img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    aspect-ratio: 1 / 1;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    opacity: 0.9;
+}
+#Gallery > #box-img-01 {
+    transform: rotate(-10deg);
+}
+#Gallery > #box-img-01 > #img-01 {
+    transform: rotate(1turn);
+}
+#Gallery > #box-img-02 {
+    margin: 3vw;
+}
+#Gallery > #box-img-03 {
+    transform: rotate(10deg);
+}
+#Gallery > #box-img-03 > #img-03 {
+    transform: rotate(-1turn);
+}
+#Gallery > #box-img-04 {
+    transform: rotate(10deg);
+}
+#Gallery > #box-img-04 > #img-04 {
+    transform: rotate(-1turn);
+}
+#Gallery > #box-img-05 {
+    margin: 3vw;
+}
+#Gallery > #box-img-06 {
+    transform: rotate(-10deg);
+}
+#Gallery > #box-img-06 > #img-06 {
+    transform: rotate(1turn);
+}
+/* ---------- END OF GALLERY ----------*/
+
+/* ---------- PRICING SECTION ----------*/
+#Pricing {
+    margin: 5vw 0;
+    gap: 2vw;
+    width: 100%;
+    opacity: 0.9;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#Pricing > h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Mogra', cursive;
+}
+#Pricing > #box-menu {
+    width: 90%;
+    text-align: center;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+#Pricing > #box-menu > img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: fill;
+}
+/* ---------- END OF PRICING ----------*/
+
+/* ---------- CONTACT SECTION ----------*/
+#Contact {
+    margin: 5vw 0;
+    gap: 2vw;
+    width: 100%;
+    opacity: 0.9;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#Contact > h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Mogra', cursive;
+}
+#Contact > #box-address, #Contact > #box-phone, #Contact > #box-email {
+    flex: 0 0 30%;
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(46, 45, 45);
+}
+#Contact > #box-address > i, #Contact > #box-phone > i, #Contact > #box-email > i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 25%;
+    font-size: 4vw;
+}
+#Contact > #box-address > h3, #Contact > #box-phone > h3, #Contact > #box-email > h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    color: white;
+    font-size: 3vw;
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+    background-color: black;
+}
+#Contact > #box-address > p, #Contact > #box-phone > p, #Contact > #box-email > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+    font-size: 2vw;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* ---------- END OF CONTACT ----------*/
+
+footer {
+    width: 100%;
+    height: 6vw;
+    display: flex;
+    opacity: 0.9;
+    align-items: center;
+    /*border-top: 5px solid rgb(46, 45, 45);*/
+}
+footer > #social-media, footer > #copyright {
+    flex: 1 0 40%;
+    text-align: center;
+}
+footer > #social-media > a {
+    color: black;
+    text-decoration: none;
+}
+footer > #social-media > a > .fa-instagram {
+    margin: 0 30px;
+}
+footer > #copyright {
+    font-family: 'Mogra', cursive;
+}
+footer > #copyright > a {
+    color: black;
+    text-decoration: none;
+}
